@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>raspisanie</class>
+ <widget class="QDialog" name="raspisanie">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>442</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #00aaff
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>21</y>
+     <width>751</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Записать</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Сохранить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QTableView" name="tableView">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(225, 225, 225);
+border-radius: 5px;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

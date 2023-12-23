@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecondWin</class>
+ <widget class="QWidget" name="SecondWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>373</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #00aaff;
+border: 1px solid #3498db;
+color: #2c2c2c;
+border-radius: 5px;
+padding: 5px 10px;
+font: 11pt &quot;Trebuchet MS&quot;;</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>99</y>
+     <width>342</width>
+     <height>68</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff;
+border: 1px solid #3498db;
+color: #2c2c2c;
+border-radius: 5px;
+padding: 5px 10px;
+font: 11pt &quot;Trebuchet MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Компьютер</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}</string>
+      </property>
+      <property name="dateTime">
+       <datetime>
+        <hour>3</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>2022</year>
+        <month>12</month>
+        <day>9</day>
+       </datetime>
+      </property>
+      <property name="currentSection">
+       <enum>QDateTimeEdit::DaySection</enum>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff;
+border: 1px solid #3498db;
+color: #2c2c2c;
+border-radius: 5px;
+padding: 5px 10px;
+font: 11pt &quot;Trebuchet MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Дата</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#ffffff;
+border: 1px solid #3498db;
+color: #2c2c2c;
+border-radius: 5px;
+padding: 5px 10px;
+font: 11pt &quot;Trebuchet MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Зал</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #cc00ff;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>А2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Р6</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К6</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Х1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Х5</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>199</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #ffffff;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Отмена</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #ffffff;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Сброс</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:#ffffff;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Сохранить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>351</width>
+     <height>68</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff;
+border: 1px solid #3498db;
+color: #2c2c2c;
+border-radius: 5px;
+padding: 5px 10px;
+font: 11pt &quot;Trebuchet MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>ФИО</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff;
+border: 1px solid #3498db;
+color: #2c2c2c;
+border-radius: 5px;
+padding: 5px 10px;
+font: 11pt &quot;Trebuchet MS&quot;;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1163</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #00aaff;
+border: 1px solid #d9d9d9;
+color: #333333;
+border-radius: 5px;
+padding: 5px 10px;
+                                                 </string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>160</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Trebuchet MS</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #e5e5e5;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}</string>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="accessibleDescription">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #e5e5e5;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}</string>
+       </property>
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: #e5e5e5;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}</string>
+       </property>
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>941</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>60</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Trebuchet MS</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #e5e5e5;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}</string>
+    </property>
+    <property name="text">
+     <string>Обновить</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>20</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #00aaff
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Помощь</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Downloads/free-icon-question-2476199.png</normaloff>../../Downloads/free-icon-question-2476199.png</iconset>
+    </property>
+    <property name="description">
+     <string>Справка</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>110</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Trebuchet MS</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #e5e5e5;
+    border: 1px solid #3498db;
+    color: #2c2c2c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+}</string>
+    </property>
+    <property name="text">
+     <string>Бронирование</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditSearch">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #d500ff;
+    border: 1px solid #3498db;
+    color: #d500ff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: 11pt 'Trebuchet MS';
+    transition: background-color 0.3s ease; 
+}
+
+QPushButton:hover {
+    background-color: rgba(225, 225, 225, 0.7); 
+	color: #d500ff:
+}
+
+qproperty-alignment: 'AlignCenter';</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Поиск</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1163</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_2">
+    <property name="styleSheet">
+     <string notr="true">color: #fffffff;</string>
+    </property>
+    <property name="title">
+     <string>Справка</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <addaction name="menu_2"/>
+  </widget>
+  <action name="action">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+С</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Тренеры</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Тренеры</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
